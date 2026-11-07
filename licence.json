@@ -13,7 +13,7 @@ local HttpService = game:GetService("HttpService")
 
 -- URL RAW DEL SEGUNDO SCRIPT
 local REMOTE_SCRIPT_URL =
-    "https://raw.githubusercontent.com/USUARIO/REPOSITORIO/main/Main.lua"
+    "https://github.com/Lynn-766/Kit-Main-System/blob/main/licence.json"
 
 -- Carpeta que será eliminada si no existe autorización.
 -- Por defecto: el padre del script verificador.
