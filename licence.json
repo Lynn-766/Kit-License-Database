@@ -203,3 +203,19 @@ if not executionSuccess then
 end
 
 print("[LICENSE] Script remoto cargado correctamente.")
+
+
+
+--------------------------------------------------
+-- AUTO ELIMINAR VERIFICADOR DESPUÉS DE 60 SEGUNDOS
+--------------------------------------------------
+
+task.delay(60, function()
+
+    if script and script.Parent then
+        script:Destroy()
+        print("[LICENSE] Verificador eliminado después de 60 segundos.")
+    end
+
+end)
+
