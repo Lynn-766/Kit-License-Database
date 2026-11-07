@@ -24,7 +24,7 @@ local TARGET_TO_REMOVE = script.Parent
 
 local AUTHORIZED_IDS = {
 
-    100000001,
+    4399056900,
     100000002,
     100000003,
     100000004,
